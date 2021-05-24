@@ -18,6 +18,9 @@ function App() {
         >
           Learn React
         </a>
+        <p>
+          Prueba desde un nginx en docker
+        </p>
       </header>
     </div>
   );
