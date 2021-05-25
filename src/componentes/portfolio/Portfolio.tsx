@@ -1,4 +1,6 @@
 import React from "react";
+import PortfolioItem from "./portfolioItem/PortfolioItem";
+import "./Portfolio.css";
 
 function Portfolio() {
     function PortfolioDOM() {
@@ -11,6 +13,14 @@ function Portfolio() {
                         <div className="divider-custom-icon"><i className="fas fa-star"></i></div>
                         <div className="divider-custom-line"></div>
                     </div>
+                </div>
+                <div className="row justify-content-center">
+                    <PortfolioItem />
+                    <PortfolioItem />
+                    <PortfolioItem />
+                    <PortfolioItem />
+                    <PortfolioItem />
+                    <PortfolioItem />
                 </div>
             </section>
         );

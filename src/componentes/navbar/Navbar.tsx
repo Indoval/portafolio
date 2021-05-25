@@ -1,6 +1,8 @@
 import React from "react";
+import "./Navbar.css";
 
 function Navbar() {
+
     function NavbarDOM() {
         return(
             <nav className="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
